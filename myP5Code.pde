@@ -12,8 +12,15 @@ void draw(){
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
   
+ //eyes
+ ellipse(85, 86, 160, 100)
+ ellipse(307, 86, 160, 100)
 
-  
+ //nose
+ rect(165, 0, 60, 170)
+
+line(43, 310, 40, 126)
+
 
 }
 
