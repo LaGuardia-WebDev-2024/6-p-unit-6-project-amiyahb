@@ -7,19 +7,37 @@ void setup() {
 
 //🟢Draw Procedure - Runs on Repeat
 void draw(){
-  fill(255,255,255);
+  fill(255,255,255,0);
   strokeWeight(1);
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
-  
+
+//background
+ellipse(200, 200, 360, 360)
+
+//grass
+ellipse(202, 340, 200, 30)
+
+//detailed grass
+line(190, 343, 277, 339)
+line(162, 345, 240, 330)
+line(135, 337, 207, 330)
+line(127, 302, 117, 331)
+line(136, 311, 130, 330)
+line(176, 308, 162, 325)
+line(183, 314, 172, 324)
+line(286, 306, 272, 326)
+line(288, 314, 282, 331)
+
+//house
+rect(137, 259, 252, 322)
  //eyes
- ellipse(85, 86, 160, 100)
- ellipse(307, 86, 160, 100)
+ 
 
  //nose
- rect(165, 0, 60, 170)
+ rect()
 
-line(43, 310, 40, 126)
+
 
 
 }
