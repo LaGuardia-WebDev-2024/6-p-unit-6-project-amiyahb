@@ -16,9 +16,12 @@ void draw(){
 ellipse(200, 200, 360, 360)
 
 //grass
+fill(8, 144, 0)
 ellipse(202, 340, 200, 30)
 
 //detailed grass
+strokeWeight(2)
+
 line(190, 343, 277, 339)
 line(162, 345, 240, 330)
 line(135, 337, 207, 330)
@@ -30,6 +33,7 @@ line(286, 306, 272, 326)
 line(288, 314, 282, 331)
 
 //house
+fill(255,61,65)
 rect(142, 245, 120, 80)
 line(140, 295, 260, 295)
 line(141, 269, 260, 269)
@@ -39,13 +43,29 @@ line(141, 269, 260, 269)
  line(125, 162, 274, 162)
 
  //snoopy
+ fill(245, 245, 245)
 ellipse(249, 96, 23, 55)
 line(247, 81, 255, 79)
 line(248, 86, 259, 86)
 rect(220, 107, 30, 15)
 arc(202, 111, 40, 35,radians(160),radians(360))
-arc(210, 120, 15, 20, radians(270), radians(460))
+arc(210, 120, 15, 20, radians(270), radians(530))
 line(207, 109, 192, 109)
+
+line(208, 121, 207, 130)
+line(213, 119, 213, 130)
+ 
+strokeWeight(3)
+line(182, 101, 182, 118)
+
+strokeWeight(1)
+arc(159, 99, 45, 70, radians(180), radians(360))
+arc(141, 109, 20, 25, radians(90), radians(260))
+line(145, 92, 152, 98)
+
+fill(15, 14, 14)
+ellipse(158, 59, 10, 10)
+ellipse(158, 144, 8, 50)
 
 
 
