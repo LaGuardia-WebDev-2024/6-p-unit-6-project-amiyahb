@@ -10,7 +10,6 @@ body {
     #B121B6 85%, /* Yellow starts at 75% */
     #DD133B 100% /* Yellow ends at 100% */
   );
-
 }
 
 html{
@@ -21,16 +20,18 @@ html{
 #myCanvas {
   border-radius: 30px;
   border: 15px double rgb(0, 0, 0);
+  background-color: aliceblue;
 }
 
 .container{
   display: flex;
   flex-wrap: wrap;
-  background-color: rgb(246, 246, 247);
+  background-color: rgb(213, 213, 231);
   justify-content: space-around;
   align-items: flex-start;
   padding-bottom: 60px;
   border-radius: 30px;
+  
 }
 
 .pic{
@@ -47,9 +48,13 @@ h2{
 
 #start{
   text-align: left;
+  font-family: "BBH Hegarty", sans-serif;
+  color: cadetblue;
 }
 
 #end{
   text-align: right;
+  font-family: "BBH Hegarty", sans-serif;
+  color: #1E7BC9;
 }
 
